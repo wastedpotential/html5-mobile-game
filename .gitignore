@@ -21,6 +21,13 @@ DerivedData
 *.ipa
 *.xcuserstate
 ios/.xcode.env.local
+/ios/Pods/
+/vendor/bundle/
+/ios/Podfile.lock
+/ios/build
+/ios/Gemfile.lock
+/ios/game.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+/ios/game.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
 
 # Android/IntelliJ
 #
@@ -58,6 +65,13 @@ buck-out/
 # Bundle artifact
 *.jsbundle
 
-# Ruby / CocoaPods
-/ios/Pods/
-/vendor/bundle/
+# other
+/.vscode
+/local.properties
+/captures
+*.zip
+*.ipa
+package-lock.json
+
+
+
